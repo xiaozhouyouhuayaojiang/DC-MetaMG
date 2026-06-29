@@ -1,0 +1,175 @@
+5-Fluorouracil	Actinic keratoses
+5-Fluorouracil	Breast Diseases
+5-Fluorouracil	Colonic Diseases
+5-Fluorouracil	Gastric Cancer
+Anastrozole	Breast Diseases
+Arsenic Trioxide	Leukemia, Promyelocytic, Acute
+Bortezomib	Multiple myeloma
+Bortezomib	Newly diagnosed
+Capecitabine	Adenocarcinomas of the pancreas
+Capecitabine	Breast Diseases
+Capsaicin	Arthritis
+Capsaicin	Back pain lower back
+Capsaicin	Backache
+Capsaicin	Bruises
+Capsaicin	Bursitis
+Carboplatin	Advanced endometrial cancer
+Carboplatin	Advanced head and neck cancer
+Carboplatin	Advanced melanoma
+Carboplatin	Lung Diseases
+Carboplatin	Uterine Cervical Diseases
+Carfilzomib	Multiple myeloma
+Carmustine	Astrocytoma
+Carmustine	Brainstem glioma
+Carmustine	Ependymoma
+Carmustine	Glioblastoma
+Carmustine	Medulloblastoma
+Cisplatin	Advanced bladder cancer
+Cisplatin	Advanced testicular cancer
+Cisplatin	Ovarian Diseases
+Clopidogrel	Acute coronary syndrome (acs)
+Clopidogrel	Myocardial Infarction
+Crizotinib	Refractory anaplastic large cell lymphoma
+Cyclophosphamide	Leukemia, Monocytic, Acute
+Cyclophosphamide	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+Cytarabine	Leukemia, Myeloid, Acute
+Cytarabine	Leukemia, Promyelocytic, Acute
+Cytarabine	Lymphomatous meningitis
+Cytarabine	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+Dasatinib	Accelerated phase chronic myologenic leukemia
+Dasatinib	Chronic phase chronic myeloid leukemia
+Dasatinib	Myeloid leukemia
+Dasatinib	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+Daunorubicin	Leukemia, Myeloid, Acute
+Daunorubicin	Lymphoma, Non-Hodgkin
+Decitabine	Chronic myelomonocytic leukemia
+Decitabine	Myelodysplastic syndromes (mds)
+Dexamethasone	Acne rosacea
+Dexamethasone	Acquired hemolytic anemia
+Dexamethasone	Acute leukemia
+Dexamethasone	Acute otitis externa
+Docetaxel	Breast Diseases
+Docetaxel	Esophageal Diseases
+Docetaxel	Prostate Cancer
+Docetaxel	Urinary Bladder Diseases
+Doxycycline	Acinetobacter infections
+Doxycycline	Anthrax
+Doxycycline	Bacterial infection caused by enterobacter aerogenes
+Doxycycline	Bartonellosis
+Doxycycline	Brucellosis
+Epirubicin	Breast Diseases
+Epirubicin	Colonic Diseases
+Epirubicin	Lung Diseases
+Epirubicin	Ovarian Diseases
+Epirubicin	Prostate Cancer
+Erlotinib	Locally advanced pancreatic cancer
+Erlotinib	Lung Diseases
+Erlotinib	Metastatic pancreatic cancer
+Erlotinib	Unresectable pancreatic cancer
+Etoposide	Esophageal Diseases
+Etoposide	Gestational trophoblastic disease
+Etoposide	Leukemia, Myeloid, Acute
+Etoposide	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+Etoposide	Sarcoma, Ewing
+Exemestane	Breast Diseases
+Fludarabine	Leukemia, Lymphocytic, Chronic, B-Cell
+Fludarabine	Lymphoma, Non-Hodgkin
+Fulvestrant	Breast Diseases
+Gefitinib	Lung Diseases
+Gemcitabine	Bladder transitional cell carcinoma stage iv
+Gemcitabine	Head and Neck Neoplasms
+Gemcitabine	Lymphoma, T-Cell, Cutaneous
+Gemcitabine	Ovarian Diseases
+Gemcitabine	Uterine Cervical Diseases
+Hydroxyurea	Essential thrombocythemia
+Hydroxyurea	Head and neck primary squamous cell carcinoma
+Hydroxyurea	Hypereosinophilic syndrome
+Hydroxyurea	Leukemia, Myelogenous, Chronic, BCR-ABL Positive
+Hydroxyurea	Locally advanced squamous cell carcinomas of the head and neck (scchn)
+Imatinib	Accelerated phase chronic myologenic leukemia
+Imatinib	Aggressive systemic mastocytosis
+Imatinib	Chordoma
+Imatinib	Chronic eosinophilic leukemia (cel)
+Ixazomib	Multiple myeloma
+Letrozole	Anovulation
+Letrozole	Breast Diseases
+Levetiracetam	Epilepsy
+Levetiracetam	Myoclonic seizures
+Levetiracetam	Partial onset seizures
+Levetiracetam	Primary generalized tonic-clonic seizures
+Melphalan	Multiple myeloma
+Melphalan	Ovarian Diseases
+Melphalan	Unresectable hepatic metastases
+Methotrexate	Cns lymphoma
+Methotrexate	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+Methotrexate	Urinary Bladder Diseases
+Mitomycin C	Adenocarcinoma of the stomach
+Mitomycin C	Anorectal Malformations
+Mitomycin C	Breast Diseases
+Mitomycin C	Urinary Bladder Diseases
+Mitomycin C	Uterine Cervical Diseases
+Mitoxantrone	Leukemia, Myeloid, Acute
+Mitoxantrone	Leukemia, Promyelocytic, Acute
+Mitoxantrone	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+Neratinib	Breast Diseases
+Nilotinib	Leukemia, Myelogenous, Chronic, BCR-ABL Positive
+Olaparib	Fallopian tube and peritoneal cancer
+Olaparib	Ovarian Diseases
+Oxaliplatin	Colonic Diseases
+Paclitaxel	Advanced head and neck cancer
+Paclitaxel	Advanced soft tissue sarcoma
+Paclitaxel	Esophageal Diseases
+Paclitaxel	Ovarian Diseases
+Paclitaxel	Uterine Cervical Diseases
+Paroxetine	Depressive Disorder, Major
+Paroxetine	Irritable bowel syndrome
+Paroxetine	Obsessive-compulsive disorder
+Pemetrexed	Metastatic non-squamous non small cell lung cancer
+Pemetrexed	Ovarian Diseases
+Pemetrexed	Uterine Cervical Diseases
+Prednisolone	Acne rosacea
+Prednisolone	Acute leukemia
+Prednisolone	Allergic bronchopulmonary aspergillosis
+Prednisolone	Arthritis, Gouty
+Prednisolone	Conjunctivitis, Allergic
+Prednisone (R-CHOP)	Acne rosacea
+Prednisone (R-CHOP)	Acute leukemia
+Prednisone (R-CHOP)	Allergic bronchopulmonary aspergillosis
+Prednisone (R-CHOP)	Arthritis, Gouty
+Prednisone (R-CHOP)	Conjunctivitis, Allergic
+Ribavirin	Chronic hepatitis c
+Ribavirin	Severe respiratory syncytial virus infection
+Sirolimus	Chordoma
+Sirolimus	Facial angiofibromas
+Sirolimus	Graft vs Host Disease
+Sirolimus	Heart Transplant Rejection
+Sorafenib	Advanced renal cell carcinoma (arcc)
+Sorafenib	Angiosarcoma
+Sorafenib	Gastrointestinal Stromal Tumors
+Sorafenib	Leiomyosarcoma
+Sunitinib	Gastrointestinal Stromal Tumors
+Sunitinib	Kidney Diseases
+Sunitinib	Unresectable, locally advanced progressive neuroendocrine tumors of pancreatic origin
+Tamoxifen	Breast Diseases
+Tamoxifen	Desmoid tumour
+Temozolomide	Glioblastomas
+Temozolomide	Primary cns lymphoma
+Teniposide	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+Topotecan	Acute coronary syndrome (acs)
+Topotecan	Cardiovascular event
+Topotecan	Myocardial Infarction
+Vemurafenib	Melanoma
+Verapamil	Angina Pectoris
+Verapamil	Hypertension
+Verapamil	Migraine Disorders
+Vinblastine	Autoimmune hemolytic anemia
+Vinblastine	Hodgkin Disease
+Vincristine	Choriocarcinoma
+Vincristine	Gestational trophoblastic tumors
+Vincristine	Leukemia, Lymphocytic, Chronic, B-Cell
+Vincristine	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+Vincristine	Sarcoma, Ewing
+Vinorelbine	Breast Diseases
+Vinorelbine	Lung Diseases
+Vinorelbine	Uterine Cervical Diseases
+Vorinostat	Lymphoma, T-Cell, Cutaneous

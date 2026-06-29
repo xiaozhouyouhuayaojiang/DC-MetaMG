@@ -1,0 +1,109 @@
+0	Accelerated phase chronic myologenic leukemia
+1	Acinetobacter infections
+2	Acne rosacea
+3	Acquired hemolytic anemia
+4	Actinic keratoses
+5	Acute coronary syndrome (acs)
+6	Acute leukemia
+7	Acute otitis externa
+8	Adenocarcinoma of the stomach
+9	Adenocarcinomas of the pancreas
+10	Advanced bladder cancer
+11	Advanced endometrial cancer
+12	Advanced head and neck cancer
+13	Advanced melanoma
+14	Advanced renal cell carcinoma (arcc)
+15	Advanced soft tissue sarcoma
+16	Advanced testicular cancer
+17	Aggressive systemic mastocytosis
+18	Allergic bronchopulmonary aspergillosis
+19	Angina Pectoris
+20	Angiosarcoma
+21	Anorectal Malformations
+22	Anovulation
+23	Anthrax
+24	Arthritis
+25	Arthritis, Gouty
+26	Astrocytoma
+27	Autoimmune hemolytic anemia
+28	Back pain lower back
+29	Backache
+30	Bacterial infection caused by enterobacter aerogenes
+31	Bartonellosis
+32	Bladder transitional cell carcinoma stage iv
+33	Brainstem glioma
+34	Breast Diseases
+35	Brucellosis
+36	Bruises
+37	Bursitis
+38	Cardiovascular event
+39	Chordoma
+40	Choriocarcinoma
+41	Chronic eosinophilic leukemia (cel)
+42	Chronic hepatitis c
+43	Chronic myelomonocytic leukemia
+44	Chronic phase chronic myeloid leukemia
+45	Cns lymphoma
+46	Colonic Diseases
+47	Conjunctivitis, Allergic
+48	Depressive Disorder, Major
+49	Desmoid tumour
+50	Ependymoma
+51	Epilepsy
+52	Esophageal Diseases
+53	Essential thrombocythemia
+54	Facial angiofibromas
+55	Fallopian tube and peritoneal cancer
+56	Gastric Cancer
+57	Gastrointestinal Stromal Tumors
+58	Gestational trophoblastic disease
+59	Gestational trophoblastic tumors
+60	Glioblastoma
+61	Glioblastomas
+62	Graft vs Host Disease
+63	Head and Neck Neoplasms
+64	Head and neck primary squamous cell carcinoma
+65	Heart Transplant Rejection
+66	Hodgkin Disease
+67	Hypereosinophilic syndrome
+68	Hypertension
+69	Irritable bowel syndrome
+70	Kidney Diseases
+71	Leiomyosarcoma
+72	Leukemia, Lymphocytic, Chronic, B-Cell
+73	Leukemia, Monocytic, Acute
+74	Leukemia, Myelogenous, Chronic, BCR-ABL Positive
+75	Leukemia, Myeloid, Acute
+76	Leukemia, Promyelocytic, Acute
+77	Locally advanced pancreatic cancer
+78	Locally advanced squamous cell carcinomas of the head and neck (scchn)
+79	Lung Diseases
+80	Lymphoma, Non-Hodgkin
+81	Lymphoma, T-Cell, Cutaneous
+82	Lymphomatous meningitis
+83	Medulloblastoma
+84	Melanoma
+85	Metastatic non-squamous non small cell lung cancer
+86	Metastatic pancreatic cancer
+87	Migraine Disorders
+88	Multiple myeloma
+89	Myelodysplastic syndromes (mds)
+90	Myeloid leukemia
+91	Myocardial Infarction
+92	Myoclonic seizures
+93	Newly diagnosed
+94	Obsessive-compulsive disorder
+95	Ovarian Diseases
+96	Partial onset seizures
+97	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+98	Primary cns lymphoma
+99	Primary generalized tonic-clonic seizures
+100	Prostate Cancer
+101	Refractory anaplastic large cell lymphoma
+102	Sarcoma, Ewing
+103	Severe respiratory syncytial virus infection
+104	Unresectable hepatic metastases
+105	Unresectable pancreatic cancer
+106	Unresectable, locally advanced progressive neuroendocrine tumors of pancreatic origin
+107	Urinary Bladder Diseases
+108	Uterine Cervical Diseases

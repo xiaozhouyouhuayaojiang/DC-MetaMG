@@ -1,0 +1,403 @@
+0	Melanoma
+1	Renal cell carcinoma
+2	Hepatocellular carcinoma
+3	Myelodysplastic syndrome
+4	Breast cancer
+5	Acute myeloid leukaemia
+6	Myeloid leukaemia
+7	Psoriasis vulgaris
+8	Prostate cancer
+9	Chronic lymphocytic leukaemia
+10	Fungal infection
+11	Lung cancer
+12	Non-small-cell lung cancer
+13	leukaemia
+14	Solid tumour/cancer
+15	Proliferative vitreoretinopathy
+16	Rheumatoid arthritis
+17	Choriocarcinoma
+18	Coronavirus Disease 2019 (COVID-19)
+19	Acute lymphoblastic leukaemia
+20	Non-hodgkin lymphoma
+21	Gastrointestinal stromal tumour
+22	Gastrointestinal cancer
+23	Thyroid cancer
+24	Ovarian cancer
+25	Multiple myeloma
+26	Psychotic disorder
+27	Middle East Respiratory Syndrome (MERS)
+28	Severe acute respiratory syndrome (SARS)
+29	Cutaneous T-cell lymphoma
+30	Pancreatic cancer
+31	Hepatitis C virus infection
+32	Hypercholesterolaemia
+33	Myelofibrosis
+34	Polycythemia vera
+35	Haematological malignancy
+36	Chronic myelogenous leukaemia
+37	Chronic myeloid leukaemia
+38	Type-2 diabetes
+39	Primary myelofibrosis
+40	Inflammation
+41	Grade IV astrocytoma
+42	Testicular cancer
+43	Intestinal cancer
+44	Systemic mastocytosis
+45	Head and neck cancer
+46	Urethral cancer
+47	Herpes simplex virus infection
+48	Mantle cell lymphoma
+49	Follicular lymphoma
+50	Diffuse large B-cell lymphoma
+51	B-cell non-hodgkin lymphoma
+52	Acute gouty arthritis
+53	Acute gout flare
+54	Hodgkin lymphoma
+55	Chemoprotection
+56	Respiratory tract disease
+57	Tumour
+58	Colon cancer
+59	Chronic myelomonocytic leukaemia
+60	Colorectal cancer
+61	Candidiasis
+62	Dermatophytosis
+63	Liver disease
+64	Cardiovascular disease
+65	Skin cancer
+66	Bacterial infection
+67	Hairy cell leukaemia
+68	Multiple sclerosis
+69	Relapsing-remitting multiple sclerosis
+70	Metastatic melanoma
+71	High-risk myelofibrosis
+72	Essential thrombocythemia
+73	Atopic dermatitis
+74	Vitiligo
+75	Brain cancer
+76	T-cell lymphoma
+77	Pain
+78	Refractory chronic myeloid leukaemia
+79	Basal cell carcinoma
+80	Primitive neuroectodermal tumour medulloblastoma
+81	Allergic rhinitis
+82	Small-cell lung cancer
+83	Peripheral T-cell lymphoma
+84	Acute promyelocytic leukaemia
+85	Acne vulgaris
+86	Ascariasis
+87	Enterobiasis
+88	Osteoporosis
+89	Schizophrenia
+90	Intrahepatic cholangiocarcinoma
+91	Neurofibromatosis type 1
+92	Metastatic gastric or gastroesophageal junction cancer
+93	Amyotrophic lateral sclerosis
+94	Glioblastoma multiforme
+95	Central nervous system disease
+96	Macular degeneration
+97	Lymphoma
+98	Coronary artery disease
+99	Bone disease
+100	Insomnia
+101	Diabetic complication
+102	Colorectal Neoplasms
+103	Breast Neoplasms
+104	Ovarian Neoplasms
+105	Carcinoma, Hepatocellular
+106	Stomach Neoplasms
+107	Pancreatitis
+108	Neoplasms
+109	Uterine Cervical Neoplasms
+110	Spinal Cord Injuries
+111	Sepsis
+112	Thyroid Neoplasms
+113	Hepatoblastoma
+114	Glomerulonephritis, IGA
+115	Glioma
+116	Diabetic Nephropathies
+117	Carcinoma, Non-Small-Cell Lung
+118	Squamous Cell Carcinoma of Head and Neck
+119	Pulmonary Disease, Chronic Obstructive
+120	Skin Neoplasms
+121	Fatty Liver, Alcoholic
+122	Colonic Neoplasms
+123	Endometrial Neoplasms
+124	Osteosarcoma
+125	Alzheimer Disease
+126	Prostatic Neoplasms
+127	Adenocarcinoma of Lung
+128	Thyroid Cancer, Papillary
+129	Pancreatic Neoplasms
+130	Sars-Cov-2 Vaccination Breakthrough Infections
+131	Ischemic Stroke
+132	Coronary Disease
+133	Diabetic Cardiomyopathies
+134	renal fibrosis
+135	Stroke
+136	Irritable Bowel Syndrome
+137	Abortion, Habitual
+138	Esophageal Squamous Cell Carcinoma
+139	Parkinson Disease
+140	Lung Neoplasms
+141	COVID-19
+142	Nasopharyngeal carcinoma
+143	Endometriosis
+144	Laryngeal Neoplasms
+145	Liver Neoplasms
+146	Urinary Bladder Neoplasms
+147	Aortic Valve, Calcification of
+148	Purpura, Thrombocytopenic, Idiopathic
+149	Hepatic Ischemia/Reperfusion Injury
+150	Gallbladder Neoplasms
+151	Diabetes Mellitus, Type 2
+152	Myocardial Infarction
+153	influenza
+154	Mouth Neoplasms
+155	Leukemia, Myeloid, Acute
+156	gallbladder carcinoma
+157	Carcinoma, Renal Cell
+158	Esophageal Neoplasms
+159	colorectal adenocarcinoma
+160	Wilms Tumor
+161	Cerebral Ischaemia/Reperfusion Injury
+162	Acute Lung Injury
+163	Abortion, Spontaneous
+164	Glioblastoma
+165	Arthritis, Rheumatoid
+166	Lymphoma, Large B-Cell, Diffuse
+167	Pulmonary Fibrosis
+168	Cerebral Ischemia/Reperfusion Injury
+169	Lymphoma, T-Cell, Cutaneous
+170	Keloid
+171	Mycoplasma pneumoniae pneumonia
+172	Diabetic Ischemic Stroke
+173	Pre-Eclampsia
+174	Acute Kidney Injury
+175	diabetic encephalopathy
+176	Non-alcoholic Fatty Liver Disease
+177	Multiple Myeloma
+178	Osteoarthritis
+179	Atherosclerosis
+180	Chordoma
+181	Triple Negative Breast Neoplasms
+182	Mycobacterium tuberculosis
+183	endometrial adenocarcinoma
+184	Burkitt Lymphoma
+185	Cholangiocarcinoma
+186	Pancreatic Carcinoma
+187	Diabetic Foot
+188	uterine corpus endometrial carcinoma
+189	Lung Injury
+190	Hypoxia-Ischemia, Brain
+191	Retinoblastoma
+192	Epilepsy
+193	Cardiomyopathy, Hypertrophic
+194	pancreatic ductal adenocarcinoma
+195	Diabetic Retinopathy
+196	Aortic Aneurysm, Thoracic
+197	Pulpitis
+198	Periodontitis
+199	Venous Thrombosis
+200	Subarachnoid Hemorrhage
+201	Pneumonia, Necrotizing
+202	Idiopathic Pulmonary Fibrosis
+203	Reperfusion Injury
+204	Lupus Erythematosus, Discoid
+205	Rectal Neoplasms
+206	Neuroblastoma
+207	Nervous System Neoplasms
+208	Myasthenia Gravis
+209	lung squamous cell carcinoma
+210	Pneumonia
+211	Tuberculosis
+212	Stress Disorders, Post-Traumatic
+213	Cerebral Hemorrhage
+214	Colitis, Ulcerative
+215	Renal Insufficiency, Chronic
+216	Neuroendocrine Tumors
+217	Coronary Artery Disease
+218	Carcinoma, Ovarian Epithelial
+219	pancreatic adenocarcinoma
+220	Pulmonary Arterial Hypertension
+221	Intervertebral Disc Degeneration
+222	Hirschsprung Disease
+223	Myocardial Reperfusion Injury
+224	Arthritis, Gouty
+225	Osteoporosis, Postmenopausal
+226	gastric adenocarcinoma
+227	Liver Cirrhosis, Biliary
+228	Adenomyosis
+229	oral squamous cell carcinoma
+230	Rhinitis, Allergic
+231	colon carcinoma
+232	Silicosis
+233	Chlamydia
+234	Multiple Sclerosis
+235	acute myocardial infarction
+236	Psoriasis
+237	Osteonecrosis
+238	Asthma
+239	capillary hemangioma
+240	Leukemia
+241	Diabetes, Gestational
+242	Carcinoma, Adenoid Cystic
+243	Diabetes Mellitus
+244	Aging
+245	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+246	Fuchs' Endothelial Dystrophy
+247	Behcet Syndrome
+248	tongue squamous cell carcinoma
+249	vulva squamous cell carcinoma
+250	Sepsis-associated Cardiac Dysfunction
+251	Amyotrophic Lateral Sclerosis 7
+252	Myocarditis
+253	Cerebral Small Vessel Diseases
+254	Essential Hypertension
+255	Primary Ovarian Insufficiency
+256	Leukemia, Myelogenous, Chronic, BCR-ABL Positive
+257	Chronic Periodontitis
+258	Brain Ischemia
+259	larynx squamous papilloma
+260	diabetic macular edema
+261	Chronic Constriction Injury
+262	Ventilator-Induced Lung Injury
+263	Stomatitis, Aphthous
+264	Aortic Aneurysm, Abdominal
+265	Polycystic Ovary Syndrome
+266	Neonatal Sepsis
+267	Adrenocortical Carcinoma
+268	Brain Injuries
+269	Heart Failure
+270	prostate carcinoma
+271	Depression
+272	Hepatitis B, Chronic
+273	Crohn Disease
+274	Liver Cirrhosis
+275	Gastrointestinal Neoplasms
+276	Coronary Restenosis
+277	Myocardial Oxidative
+278	ovarian clear cell carcinoma
+279	Leukemia, Promyelocytic, Acute
+280	Diabetic Gastroparesis
+281	Small Cell Lung Carcinoma
+282	stomach carcinoma
+283	Huntington Disease
+284	Heart Injuries
+285	Cardiomyopathy, Dilated
+286	Cerebral Infarction
+287	Sjogren's Syndrome
+288	esophageal carcinoma
+289	Sepsis-Induced Cardiomyocyte Pyroptosis
+290	lung carcinoma
+291	B-cell acute lymphoblastic leukemia
+292	Myocardial Reperfusion
+293	Her2-receptor positive breast cancer
+294	Adenocarcinoma, Follicular
+295	Thymus Neoplasms
+296	Molecular Epidemiology
+297	Heart Defects, Congenital
+298	neuroendocrine carcinoma
+299	Pituitary Neoplasms
+300	Sepsis-Associated Renal Injury
+301	Acute Coronary Syndrome
+302	Hyperparathyroidism, Primary
+303	Sarcoma, Synovial
+304	endometriosis of ovary
+305	Cicatrix, Hypertrophic
+306	Sleep Apnea Syndromes
+307	Sarcoma, Ewing
+308	HIV
+309	Liver Inflammation Caused By Chb In Patients With Chronic Hbv Infection Complicated With Nafld
+310	Oligodendroglioma
+311	Respiratory Distress Syndrome
+312	Vascular Diseases
+313	endometrial endometrioid adenocarcinoma, secretory variant
+314	Hypothyroidism
+315	Liver Cancer Bone Metastasis
+316	clear cell renal cell carcinoma
+317	Osteoarthritis, Knee
+318	bronchopulmonary dysplasia
+319	skin melanoma
+320	acute myeloid leukemia
+321	Homo sapiens
+322	Kidney Neoplasms
+323	Thyroid Carcinoma, Anaplastic
+324	Chondrosarcoma
+325	Neuronal Injury
+326	Teratocarcinoma
+327	Thyroid cancer, medullary
+328	Pemphigus
+329	Neuralgia
+330	spinal chordoma
+331	gastric cardia adenocarcinoma
+332	Oral Submucous Fibrosis
+333	Arthritis, Juvenile
+334	Bronchopulmonary Dysplasia
+335	Lymphoma, Non-Hodgkin
+336	choriocarcinoma
+337	Uveal melanoma
+338	Sinonasal Squamous Cell Carcinoma
+339	Acute Hepatic Injury
+340	Pterygium
+341	Cardiomyopathies
+342	ovarian carcinoma
+343	bladder carcinoma
+344	Myelodysplastic Syndromes
+345	Atrial Fibrillation
+346	cervical squamous cell carcinoma
+347	Mucocutaneous Lymph Node Syndrome
+348	Hodgkin Disease
+349	Cardiomyocyte Hypoxia/Reoxygenation Injury
+350	Prostatic Hyperplasia
+351	Nephrotic Syndrome
+352	Carcinoma, Ductal, Breast
+353	Plaque, Atherosclerotic
+354	Breast Diseases
+355	laryngeal carcinoma
+356	Glaucoma
+357	Medulloblastoma
+358	Adenocarcinoma
+359	laryngeal squamous cell carcinoma
+360	Lupus Erythematosus, Systemic
+361	Demyelinating Diseases
+362	degenerative disc disease
+363	pneumonia
+364	Thyroid Nodule
+365	maxillary sinus squamous cell carcinoma
+366	Tuberculosis, Spinal
+367	Meningioma
+368	Adenocarcinoma Of Esophagus
+369	Leukemia, B-Cell
+370	Ependymoma
+371	Depressive Disorder, Major
+372	bladder urothelial carcinoma
+373	Solid Tumors
+374	Carcinoma, Basosquamous
+375	Sarcoma, Myeloid
+376	Colorectal Cancer Patients With Type 2 Diabetes
+377	Malignant Tumour Lympha Node Metastasis
+378	ovarian squamous cell carcinoma
+379	Spondylitis, Ankylosing
+380	Adrenal Cortex Neoplasms
+381	Hemangioma
+382	Mycosis Fungoides
+383	transitional cell carcinoma
+384	Cystitis
+385	Corneal Neovascularization
+386	Peptic Ulcer
+387	Lymphatic Metastasis
+388	Fractures, Bone
+389	Prostatitis
+390	Hypertension, Pulmonary
+391	aortic valve disease
+392	Bipolar Disorder
+393	Nasopharyngeal Neoplasms
+394	beta-Thalassemia
+395	Tongue Neoplasms
+396	invasive ductal carcinoma
+397	Gastrointestinal Stromal Tumors
+398	esophagus squamous cell carcinoma
+399	RNA, Long Noncoding
+400	Cardiomyocyte Hypertrophy
+401	lung non-small cell carcinoma
+402	Growth Hormone-Secreting Pituitary Adenoma
