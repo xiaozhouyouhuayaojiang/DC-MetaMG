@@ -97,10 +97,6 @@ def get_edge_index(args, dataset, mode='MG'):
     for i in range(n_nodes):
         adj_matrix[i, i] = 1
 
-    '''interactions = pd.read_csv(os.path.join(args.data_path, "edges.txt"), header=None, sep='\t')
-    for d, r in interactions.itertuples(index=False):
-        adj_matrix[int(d), int(r) + args.n_Drug] = 1
-        adj_matrix[int(r) + args.n_Drug, int(d)] = 1'''
     interactions = dataset.edge_index
     for d, r in interactions.T:
         adj_matrix[int(d), int(r)] = 1

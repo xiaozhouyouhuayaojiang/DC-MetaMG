@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from scipy.stats import pearsonr
 from sklearn.metrics import jaccard_score
 
-# 示例数据 - 实际应用中替换为你的数据
+
 miRNA_names = []
 disease_names = []
 '''

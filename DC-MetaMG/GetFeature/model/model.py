@@ -71,7 +71,7 @@ class MetaMG(torch.nn.Module):
         self.NumDrug = self.args.n_Drug
         self.NumNcRNA = self.args.n_NcRNA
 
-        self.temperature = args.temperature  # InfoNCE的温度超参数
+        self.temperature = args.temperature
 
         self.alpha = args.alpha
         self.dataset = dataset
@@ -175,23 +175,20 @@ class MetaMG(torch.nn.Module):
         return CoarseGrained_Drug, CoarseGrained_RNA, FineGrained_Drug, FineGrained_RNA
 
     def positive_similarity_loss(self, lastlayer_emb, firstlayer_emb, pos_drug_idx, pos_mirna_idx):
-        """
-        额外损失：让正样本对的特征更相似
-        """
-        # 提取正样本对的特征
+
         drug_emb = F.normalize(lastlayer_emb[pos_drug_idx])  # [num_pos, dim]
         mirna_emb = F.normalize(firstlayer_emb[pos_mirna_idx])  # [num_pos, dim]
 
-        # 计算余弦相似度
+
         sim = torch.mul(drug_emb, mirna_emb).sum(dim=-1)  # [num_pos]
 
-        # 最大化相似度（即最小化 1 - sim）
+
         loss = (1 - sim).mean()
 
         return loss
 
     def calculate_loss(self, train_data):
-        # 获取正负样本索引
+
         posINDEX_drug = []
         posINDEX_mirna = []
         negINDEX_drug = []
@@ -208,12 +205,12 @@ class MetaMG(torch.nn.Module):
 
         drug_all_embeddings, mirna_all_embeddings, embeddings_list = self.forward()
 
-        # 计算InfoNCE损失（分别对drug和miRNA）
+
         info_nce_LossD1 = self.infoNCE_Loss(
             embeddings_list[0][-1][:],
             embeddings_list[0][0][:],
-            posINDEX_drug,  # 正样本索引
-            negINDEX_drug,  # 负样本索引
+            posINDEX_drug,
+            negINDEX_drug,
             self.temperature
         )
 
@@ -241,7 +238,7 @@ class MetaMG(torch.nn.Module):
             self.temperature
         )
 
-        # 额外添加正样本对的直接拉近损失（可选）
+
         pos_sim_loss = self.positive_similarity_loss(
             embeddings_list[0][-1][:],
             embeddings_list[0][0][:],
@@ -251,36 +248,26 @@ class MetaMG(torch.nn.Module):
 
         total_loss = (info_nce_LossD1 + info_nce_LossD2 +
                       info_nce_LossM1 + info_nce_LossM2 +
-                      0.1 * pos_sim_loss)  # 权重可调
+                      0.1 * pos_sim_loss)
 
         return total_loss
 
     def infoNCE_Loss(self, lastlayer_emb, firstlayer_emb, pos_index, neg_index, temperature=0.1):
-        """
-        改进的InfoNCE损失函数
-        pos_index: 正样本索引（已知相互作用的药物或miRNA索引）
-        neg_index: 负样本索引
-        """
-        # 归一化特征
+
         posemb_last = F.normalize(lastlayer_emb[pos_index])  # [num_pos, dim]
         posemb_first = F.normalize(firstlayer_emb[pos_index])  # [num_pos, dim]
         negemb_first = F.normalize(firstlayer_emb[neg_index])  # [num_neg, dim]
 
-        # 正样本对相似度 (拉近)
+
         pos_sim = torch.mul(posemb_last, posemb_first).sum(dim=-1)  # [num_pos]
 
-        # 负样本对相似度 (推远)
-        # 计算每个正样本与所有负样本的相似度
         neg_sim = torch.matmul(posemb_last, negemb_first.T)  # [num_pos, num_neg]
 
-        # InfoNCE损失
-        # 分子：正样本对相似度 exp
         pos_exp = torch.exp(pos_sim / temperature)  # [num_pos]
-        # 分母：正样本 + 所有负样本 exp 之和
+
         neg_exp = torch.exp(neg_sim / temperature)  # [num_pos, num_neg]
         denom = pos_exp.unsqueeze(1) + neg_exp.sum(dim=1, keepdim=True)  # [num_pos, 1]
 
-        # 计算损失（平均）
         loss = -torch.log(pos_exp.unsqueeze(1) / denom).mean()
 
         return loss
