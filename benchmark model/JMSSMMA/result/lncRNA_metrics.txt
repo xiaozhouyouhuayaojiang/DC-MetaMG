@@ -1,0 +1,6 @@
+AUC: 0.9610
+AUPR: 0.9492
+Accuracy: 0.8947
+F1: 0.9009
+Recall: 0.9573
+Precision: 0.8509

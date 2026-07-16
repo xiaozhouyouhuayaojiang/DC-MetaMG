@@ -113,7 +113,7 @@ drug_embedding_matrix = np.array([drug_embeddings[drug] for drug in drug_nodes])
 pd.DataFrame(drug_embedding_matrix, index=drug_nodes).to_csv("drug_embeddings.csv")
 
 
-with open('source/Topo_drug.txt', 'w') as file:
+with open('source/GIP_Topo_drug.txt', 'w') as file:
     for row in drug_embedding_matrix:
 
         file.write(' '.join(map(str, row)) + '\n')

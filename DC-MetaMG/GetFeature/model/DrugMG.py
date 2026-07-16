@@ -77,7 +77,7 @@ class CustomBondFeaturizer(PretrainBondFeaturizer):
             bond_types = [
                 Chem.rdchem.BondType.SINGLE, Chem.rdchem.BondType.DOUBLE,
                 Chem.rdchem.BondType.TRIPLE, Chem.rdchem.BondType.AROMATIC,
-                Chem.rdchem.BondType.DATIVE  # 添加 DATIVE 键类型
+                Chem.rdchem.BondType.DATIVE
             ]
         super(CustomBondFeaturizer, self).__init__(bond_types, bond_direction_types, self_loop)
 
@@ -134,9 +134,9 @@ def graph_construction(smiles):
         for i in range(mol.GetNumAtoms()):
             neighbors = [x.GetIdx() for x in mol.GetAtomWithIdx(i).GetNeighbors()]
             if len(neighbors) >= 2:
-                # 计算距离
+
                 dists = cdist([coords[i]], coords[neighbors]).flatten()
-                # 计算角度
+
                 angles = []
                 for j in range(len(neighbors)):
                     for k in range(j + 1, len(neighbors)):
@@ -144,19 +144,18 @@ def graph_construction(smiles):
                         v2 = coords[neighbors[k]] - coords[i]
                         angle = np.degrees(np.arccos(np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))))
                         angles.append(angle)
-                # 组合特征
+
                 geom_features.append([
-                    np.mean(dists), np.std(dists),  # 距离统计
-                    np.mean(angles), np.std(angles),  # 角度统计
-                    len(neighbors)  # 配位数
+                    np.mean(dists), np.std(dists),
+                    np.mean(angles), np.std(angles),
+                    len(neighbors)
                 ])
             else:
-                geom_features.append([0] * 5)  # 默认值
+                geom_features.append([0] * 5)
 
-        # 添加到节点特征
+
         geom_features = np.array(geom_features)
 
-        # 归一化处理
         scaler = StandardScaler()
         geom_features = scaler.fit_transform(geom_features)
         geom_features = torch.tensor(geom_features, dtype=torch.float32)

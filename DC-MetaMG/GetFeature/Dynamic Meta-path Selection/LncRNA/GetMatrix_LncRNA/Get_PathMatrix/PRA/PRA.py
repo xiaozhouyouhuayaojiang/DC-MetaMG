@@ -2,8 +2,7 @@ import numpy as np
 import pandas as pd
 from scipy.sparse import csr_matrix
 
-# 假设数据
-# miRNA-disease 关联矩阵
+
 file_path = 'MD_ARR.txt'
 
 miRNA_disease_matrix = []
@@ -15,7 +14,6 @@ with open(file_path, 'r') as file:
 association_matrix = np.array(miRNA_disease_matrix)
 
 
-# drug-disease 关联矩阵
 file_path = 'DD_ARR.txt'
 
 drug_disease_matrix = []
@@ -28,15 +26,14 @@ association_matrix = np.array(drug_disease_matrix)
 
 
 
-# 将矩阵转换为稀疏矩阵
 miRNA_disease_sparse = csr_matrix(miRNA_disease_matrix)
 drug_disease_sparse = csr_matrix(drug_disease_matrix)
 
-# 获取 miRNA 和 disease 的关联
+
 miRNA_disease_associations = miRNA_disease_sparse.nonzero()
 drug_disease_associations = drug_disease_sparse.nonzero()
 
-# 构建 miRNA-disease 和 drug-disease 的映射
+
 miRNA_disease_map = {}
 for miRNA_idx, disease_idx in zip(*miRNA_disease_associations):
     if miRNA_idx not in miRNA_disease_map:
@@ -49,7 +46,7 @@ for drug_idx, disease_idx in zip(*drug_disease_associations):
         drug_disease_map[drug_idx] = []
     drug_disease_map[drug_idx].append(disease_idx)
 
-# 提取元路径
+
 def extract_paths(miRNA_disease_map, drug_disease_map):
     miRNA_miRNA_paths = []
     drug_drug_paths = []
@@ -86,10 +83,10 @@ def extract_paths(miRNA_disease_map, drug_disease_map):
 
     return miRNA_miRNA_paths, drug_drug_paths, miRNA_drug_paths, drug_miRNA_paths
 
-# 提取路径
+
 miRNA_miRNA_paths, drug_drug_paths, miRNA_drug_paths, drug_miRNA_paths = extract_paths(miRNA_disease_map, drug_disease_map)
 
-# 打印结果
+
 print("miRNA-miRNA paths:", miRNA_miRNA_paths)
 print("drug-drug paths:", drug_drug_paths)
 print("miRNA-drug paths:", miRNA_drug_paths)

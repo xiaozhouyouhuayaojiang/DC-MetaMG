@@ -49,9 +49,7 @@ class HetConv(nn.Module):
         g.ndata.update({'feat': nodes_feat,
                         'ft': (nodes_feat).sum(dim=-1)})
         g.apply_edges(fn.u_add_v('ft', 'ft', 'e'))
-        '''fn.u_add_v 是一个内置的消息函数，它的作用是将源节点（u）和目标节点（v）的特征相加。
-        在这个特定的例子中，它将源节点和目标节点的 'ft' 特征相加，生成一个新的消息特征 'e'。这个操作对于图中的每一条边都会执行，结果会存储在边数据（edata）中，键为 'e'
-        '''
+
         all_edge_emb = self.edge_embedding(self.edges)
 
         ee = (all_edge_emb ).sum(dim=-1)[edges_feat]
@@ -64,11 +62,7 @@ class HetConv(nn.Module):
         # message passing
         g.update_all(fn.u_mul_e('feat', 'a', 'm'), fn.sum('m', 'feat'))
         nodes_feat = g.ndata['feat']
-        '''
-        消息产生：fn.u_mul_e('feat', 'a', 'm') 是一个消息函数，它将节点特征 'feat'（即每个节点的原始特征）与边特征 'a'（即之前计算的边特征，
-        表示为边的注意力分数）相乘，结果存储在中间消息 'm' 中。这个操作对于图中的每一条边都会执行，计算出从源节点到目标节点的消息。
-        消息聚合：fn.sum('m', 'feat') 是一个聚合函数，它将所有进入每个节点的消息 'm' 进行求和，并将结果更新到目标节点的 'feat' 特征中。这意味着每个节点的新特征将是所有其邻居节点发送的消息之和。
-        '''
+
         if self.bn:
             nodes_feat = self.bn(nodes_feat)
         if self.activation:
